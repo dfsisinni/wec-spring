@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0066ff"><!-- Set the page to the width of the device and set the zoon level -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title >Electrified Qzip</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <script src="https://cdn.plot.ly/plotly-1.2.0.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center">Electrified Qzip Death Star Solution</h1>
+    <button id="resultsButton" type="button" class="center btn btn-default">Get Results</button>
+    <a href="/api/solution.csv"><button type="button" class="center btn btn-default">Get CSV Results</button></a>
+    <h2 id="numberofShips" ></h2>
+    <h2 id="destructionScore"></h2>
+    <h2 id="startPoint"></h2>
+    <h2 id="vector"></h2>
+    <h2 id="shipsDestroyed"></h2>
+    <table id="table">
+      <tr id='headerRow' style='display: none;'>
+        <th style='padding-right: 10%;'>Ship Name</th>
+        <th>Size</th>
+      </tr>
+
+    </table>
+    <div id="myDiv" style="width:100%;height:100%"></div>
+  </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+</script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
+
+      
